@@ -2,6 +2,11 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu-24.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
+# --------------------------------------------------------
+# Install ALL system + Qt deps (ROOT)
+# --------------------------------------------------------
+USER root
+
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \

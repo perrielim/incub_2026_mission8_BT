@@ -1,253 +1,253 @@
 [
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o -c /workspace/BehaviorTree.CPP/src/action_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o -c /workspace/BehaviorTree.CPP/src/action_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/action_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/action_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o -c /workspace/BehaviorTree.CPP/src/basic_types.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o -c /workspace/BehaviorTree.CPP/src/basic_types.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/basic_types.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/basic_types.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o -c /workspace/BehaviorTree.CPP/src/behavior_tree.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o -c /workspace/BehaviorTree.CPP/src/behavior_tree.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/behavior_tree.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/behavior_tree.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o -c /workspace/BehaviorTree.CPP/src/blackboard.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o -c /workspace/BehaviorTree.CPP/src/blackboard.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/blackboard.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/blackboard.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o -c /workspace/BehaviorTree.CPP/src/bt_factory.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o -c /workspace/BehaviorTree.CPP/src/bt_factory.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/bt_factory.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/bt_factory.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorator_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorator_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorator_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorator_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o -c /workspace/BehaviorTree.CPP/src/condition_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o -c /workspace/BehaviorTree.CPP/src/condition_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/condition_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/condition_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o -c /workspace/BehaviorTree.CPP/src/control_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o -c /workspace/BehaviorTree.CPP/src/control_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/control_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/control_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o -c /workspace/BehaviorTree.CPP/src/shared_library.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o -c /workspace/BehaviorTree.CPP/src/shared_library.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/shared_library.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/shared_library.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o -c /workspace/BehaviorTree.CPP/src/tree_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o -c /workspace/BehaviorTree.CPP/src/tree_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/tree_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/tree_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o -c /workspace/BehaviorTree.CPP/src/script_parser.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o -c /workspace/BehaviorTree.CPP/src/script_parser.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/script_parser.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/script_parser.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/script_tokenizer.cpp.o -c /workspace/BehaviorTree.CPP/src/script_tokenizer.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/script_tokenizer.cpp.o -c /workspace/BehaviorTree.CPP/src/script_tokenizer.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/script_tokenizer.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/script_tokenizer.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o -c /workspace/BehaviorTree.CPP/src/json_export.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o -c /workspace/BehaviorTree.CPP/src/json_export.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/json_export.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/json_export.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o -c /workspace/BehaviorTree.CPP/src/xml_parsing.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o -c /workspace/BehaviorTree.CPP/src/xml_parsing.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/xml_parsing.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/xml_parsing.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/test_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/test_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/actions/test_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/actions/test_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/sleep_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/sleep_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/actions/sleep_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/actions/sleep_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/updated_action.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/updated_action.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/actions/updated_action.cpp.o -c /workspace/BehaviorTree.CPP/src/actions/updated_action.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/actions/updated_action.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/actions/updated_action.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/delay_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/delay_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/delay_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/delay_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/inverter_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/inverter_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/inverter_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/inverter_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/repeat_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/repeat_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/repeat_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/repeat_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/retry_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/retry_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/retry_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/retry_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/subtree_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/subtree_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/subtree_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/subtree_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/timeout_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/timeout_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/timeout_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/timeout_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/updated_decorator.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/updated_decorator.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/decorators/updated_decorator.cpp.o -c /workspace/BehaviorTree.CPP/src/decorators/updated_decorator.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/decorators/updated_decorator.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/decorators/updated_decorator.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/if_then_else_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/if_then_else_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/if_then_else_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/if_then_else_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/fallback_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/fallback_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/fallback_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/fallback_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/parallel_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/parallel_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/parallel_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/parallel_all_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/parallel_all_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/parallel_all_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/parallel_all_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/reactive_sequence.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/reactive_sequence.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/reactive_sequence.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_sequence.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/reactive_fallback.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/reactive_fallback.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/reactive_fallback.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/reactive_fallback.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/sequence_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/sequence_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/sequence_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_with_memory_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/sequence_with_memory_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_with_memory_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/sequence_with_memory_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/sequence_with_memory_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/sequence_with_memory_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/switch_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/switch_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/switch_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/switch_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/switch_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/switch_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/try_catch_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/try_catch_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/try_catch_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/try_catch_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/try_catch_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/try_catch_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/while_do_else_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/while_do_else_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/controls/while_do_else_node.cpp.o -c /workspace/BehaviorTree.CPP/src/controls/while_do_else_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/controls/while_do_else_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/controls/while_do_else_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_cout_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_cout_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/bt_cout_logger.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_cout_logger.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_file_logger_v2.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_file_logger_v2.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_file_logger_v2.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_file_logger_v2.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/bt_file_logger_v2.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_file_logger_v2.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_minitrace_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_minitrace_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/bt_minitrace_logger.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_minitrace_logger.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_observer.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_observer.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_observer.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_observer.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/bt_observer.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_observer.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/groot2_publisher.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/groot2_publisher.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/groot2_publisher.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/groot2_publisher.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/groot2_publisher.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/groot2_publisher.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_sqlite_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_sqlite_logger.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_sqlite_logger.cpp.o -c /workspace/BehaviorTree.CPP/src/loggers/bt_sqlite_logger.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/loggers/bt_sqlite_logger.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/loggers/bt_sqlite_logger.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/shared_library_UNIX.cpp.o -c /workspace/BehaviorTree.CPP/src/shared_library_UNIX.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -Dbehaviortree_cpp_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/minitrace -I/workspace/BehaviorTree.CPP/3rdparty/tinyxml2 -I/workspace/BehaviorTree.CPP/3rdparty/minicoro -I/workspace/BehaviorTree.CPP/3rdparty/flatbuffers -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -Wall -Wextra -o CMakeFiles/behaviortree_cpp.dir/src/shared_library_UNIX.cpp.o -c /workspace/BehaviorTree.CPP/src/shared_library_UNIX.cpp",
   "file": "/workspace/BehaviorTree.CPP/src/shared_library_UNIX.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/CMakeFiles/behaviortree_cpp.dir/src/shared_library_UNIX.cpp.o"
 },
@@ -265,199 +265,199 @@
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/crossdoor_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/crossdoor_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/bt_sample_nodes.dir/crossdoor_nodes.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/dummy_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/dummy_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/bt_sample_nodes.dir/dummy_nodes.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/movebase_node.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt_sample_nodes.dir/movebase_node.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/bt_sample_nodes.dir/movebase_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -DBT_PLUGIN_EXPORT -Dcrossdoor_nodes_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -DBT_PLUGIN_EXPORT -Dcrossdoor_nodes_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/crossdoor_nodes.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/crossdoor_nodes_dyn.dir/crossdoor_nodes.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -DBT_PLUGIN_EXPORT -Ddummy_nodes_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -DBT_PLUGIN_EXPORT -Ddummy_nodes_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/dummy_nodes.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/dummy_nodes_dyn.dir/dummy_nodes.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -DBT_PLUGIN_EXPORT -Dmovebase_node_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/movebase_node_dyn.dir/movebase_node.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -DBT_PLUGIN_EXPORT -Dmovebase_node_dyn_EXPORTS -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/movebase_node_dyn.dir/movebase_node.cpp.o -c /workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
   "file": "/workspace/BehaviorTree.CPP/sample_nodes/movebase_node.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/sample_nodes/CMakeFiles/movebase_node_dyn.dir/movebase_node.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/tools",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt4_plugin_manifest.dir/bt_plugin_manifest.cpp.o -c /workspace/BehaviorTree.CPP/tools/bt_plugin_manifest.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt4_plugin_manifest.dir/bt_plugin_manifest.cpp.o -c /workspace/BehaviorTree.CPP/tools/bt_plugin_manifest.cpp",
   "file": "/workspace/BehaviorTree.CPP/tools/bt_plugin_manifest.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/tools/CMakeFiles/bt4_plugin_manifest.dir/bt_plugin_manifest.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/tools",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt4_nodes_model.dir/bt_nodes_model.cpp.o -c /workspace/BehaviorTree.CPP/tools/bt_nodes_model.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/bt4_nodes_model.dir/bt_nodes_model.cpp.o -c /workspace/BehaviorTree.CPP/tools/bt_nodes_model.cpp",
   "file": "/workspace/BehaviorTree.CPP/tools/bt_nodes_model.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/tools/CMakeFiles/bt4_nodes_model.dir/bt_nodes_model.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -DMANUAL_STATIC_LINKING -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t01_first_tree_static.dir/t01_build_your_first_tree.cpp.o -c /workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -DMANUAL_STATIC_LINKING -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t01_first_tree_static.dir/t01_build_your_first_tree.cpp.o -c /workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t01_first_tree_static.dir/t01_build_your_first_tree.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t01_first_tree_dynamic.dir/t01_build_your_first_tree.cpp.o -c /workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t01_first_tree_dynamic.dir/t01_build_your_first_tree.cpp.o -c /workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t01_build_your_first_tree.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t01_first_tree_dynamic.dir/t01_build_your_first_tree.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t02_basic_ports.dir/t02_basic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t02_basic_ports.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t02_basic_ports.dir/t02_basic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t02_basic_ports.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t02_basic_ports.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t02_basic_ports.dir/t02_basic_ports.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t03_generic_ports.dir/t03_generic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t03_generic_ports.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t03_generic_ports.dir/t03_generic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t03_generic_ports.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t03_generic_ports.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t03_generic_ports.dir/t03_generic_ports.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t04_reactive_sequence.dir/t04_reactive_sequence.cpp.o -c /workspace/BehaviorTree.CPP/examples/t04_reactive_sequence.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t04_reactive_sequence.dir/t04_reactive_sequence.cpp.o -c /workspace/BehaviorTree.CPP/examples/t04_reactive_sequence.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t04_reactive_sequence.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t04_reactive_sequence.dir/t04_reactive_sequence.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o -c /workspace/BehaviorTree.CPP/examples/t05_crossdoor.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o -c /workspace/BehaviorTree.CPP/examples/t05_crossdoor.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t05_crossdoor.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t05_crossdoor.dir/t05_crossdoor.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t06_subtree_port_remapping.dir/t06_subtree_port_remapping.cpp.o -c /workspace/BehaviorTree.CPP/examples/t06_subtree_port_remapping.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t06_subtree_port_remapping.dir/t06_subtree_port_remapping.cpp.o -c /workspace/BehaviorTree.CPP/examples/t06_subtree_port_remapping.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t06_subtree_port_remapping.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t06_subtree_port_remapping.dir/t06_subtree_port_remapping.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t07_load_multiple_xml.dir/t07_load_multiple_xml.cpp.o -c /workspace/BehaviorTree.CPP/examples/t07_load_multiple_xml.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t07_load_multiple_xml.dir/t07_load_multiple_xml.cpp.o -c /workspace/BehaviorTree.CPP/examples/t07_load_multiple_xml.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t07_load_multiple_xml.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t07_load_multiple_xml.dir/t07_load_multiple_xml.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t08_additional_node_args.dir/t08_additional_node_args.cpp.o -c /workspace/BehaviorTree.CPP/examples/t08_additional_node_args.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t08_additional_node_args.dir/t08_additional_node_args.cpp.o -c /workspace/BehaviorTree.CPP/examples/t08_additional_node_args.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t08_additional_node_args.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t08_additional_node_args.dir/t08_additional_node_args.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t09_scripting.dir/t09_scripting.cpp.o -c /workspace/BehaviorTree.CPP/examples/t09_scripting.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t09_scripting.dir/t09_scripting.cpp.o -c /workspace/BehaviorTree.CPP/examples/t09_scripting.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t09_scripting.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t09_scripting.dir/t09_scripting.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t10_observer.dir/t10_observer.cpp.o -c /workspace/BehaviorTree.CPP/examples/t10_observer.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t10_observer.dir/t10_observer.cpp.o -c /workspace/BehaviorTree.CPP/examples/t10_observer.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t10_observer.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t10_observer.dir/t10_observer.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t11_groot_howto.dir/t11_groot_howto.cpp.o -c /workspace/BehaviorTree.CPP/examples/t11_groot_howto.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t11_groot_howto.dir/t11_groot_howto.cpp.o -c /workspace/BehaviorTree.CPP/examples/t11_groot_howto.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t11_groot_howto.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t11_groot_howto.dir/t11_groot_howto.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t12_default_ports.dir/t12_default_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t12_default_ports.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t12_default_ports.dir/t12_default_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t12_default_ports.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t12_default_ports.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t12_default_ports.dir/t12_default_ports.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t13_access_by_ref.dir/t13_access_by_ref.cpp.o -c /workspace/BehaviorTree.CPP/examples/t13_access_by_ref.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t13_access_by_ref.dir/t13_access_by_ref.cpp.o -c /workspace/BehaviorTree.CPP/examples/t13_access_by_ref.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t13_access_by_ref.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t13_access_by_ref.dir/t13_access_by_ref.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t14_subtree_model.dir/t14_subtree_model.cpp.o -c /workspace/BehaviorTree.CPP/examples/t14_subtree_model.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t14_subtree_model.dir/t14_subtree_model.cpp.o -c /workspace/BehaviorTree.CPP/examples/t14_subtree_model.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t14_subtree_model.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t14_subtree_model.dir/t14_subtree_model.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t15_nodes_mocking.dir/t15_nodes_mocking.cpp.o -c /workspace/BehaviorTree.CPP/examples/t15_nodes_mocking.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t15_nodes_mocking.dir/t15_nodes_mocking.cpp.o -c /workspace/BehaviorTree.CPP/examples/t15_nodes_mocking.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t15_nodes_mocking.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t15_nodes_mocking.dir/t15_nodes_mocking.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t16_global_blackboard.dir/t16_global_blackboard.cpp.o -c /workspace/BehaviorTree.CPP/examples/t16_global_blackboard.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t16_global_blackboard.dir/t16_global_blackboard.cpp.o -c /workspace/BehaviorTree.CPP/examples/t16_global_blackboard.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t16_global_blackboard.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t16_global_blackboard.dir/t16_global_blackboard.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t17_blackboard_backup.dir/t17_blackboard_backup.cpp.o -c /workspace/BehaviorTree.CPP/examples/t17_blackboard_backup.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t17_blackboard_backup.dir/t17_blackboard_backup.cpp.o -c /workspace/BehaviorTree.CPP/examples/t17_blackboard_backup.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t17_blackboard_backup.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t17_blackboard_backup.dir/t17_blackboard_backup.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t18_waypoints.dir/t18_waypoints.cpp.o -c /workspace/BehaviorTree.CPP/examples/t18_waypoints.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t18_waypoints.dir/t18_waypoints.cpp.o -c /workspace/BehaviorTree.CPP/examples/t18_waypoints.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t18_waypoints.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t18_waypoints.dir/t18_waypoints.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t19_polymorphic_ports.dir/t19_polymorphic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t19_polymorphic_ports.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/t19_polymorphic_ports.dir/t19_polymorphic_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/t19_polymorphic_ports.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/t19_polymorphic_ports.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/t19_polymorphic_ports.dir/t19_polymorphic_ports.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex01_wrap_legacy.dir/ex01_wrap_legacy.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex01_wrap_legacy.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex01_wrap_legacy.dir/ex01_wrap_legacy.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex01_wrap_legacy.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/ex01_wrap_legacy.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/ex01_wrap_legacy.dir/ex01_wrap_legacy.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex02_runtime_ports.dir/ex02_runtime_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex02_runtime_ports.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex02_runtime_ports.dir/ex02_runtime_ports.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex02_runtime_ports.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/ex02_runtime_ports.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/ex02_runtime_ports.dir/ex02_runtime_ports.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex03_sqlite_log.dir/ex03_sqlite_log.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex03_sqlite_log.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/ex03_sqlite_log.dir/ex03_sqlite_log.cpp.o -c /workspace/BehaviorTree.CPP/examples/ex03_sqlite_log.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/ex03_sqlite_log.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/ex03_sqlite_log.dir/ex03_sqlite_log.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -DBT_PLUGIN_EXPORT -Dtest_plugin_action_EXPORTS -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/test_plugin_action.dir/plugin_example/plugin_action.cpp.o -c /workspace/BehaviorTree.CPP/examples/plugin_example/plugin_action.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -DBT_PLUGIN_EXPORT -Dtest_plugin_action_EXPORTS -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17 -fPIC   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/test_plugin_action.dir/plugin_example/plugin_action.cpp.o -c /workspace/BehaviorTree.CPP/examples/plugin_example/plugin_action.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/plugin_example/plugin_action.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/test_plugin_action.dir/plugin_example/plugin_action.cpp.o"
 },
 {
   "directory": "/workspace/BehaviorTree.CPP/build_from_app/examples",
-  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/test_plugin_executor.dir/plugin_example/plugin_executor.cpp.o -c /workspace/BehaviorTree.CPP/examples/plugin_example/plugin_executor.cpp",
+  "command": "/usr/bin/c++ -DBTCPP_LIBRARY_VERSION=\\\"4.9.0\\\" -I/workspace/BehaviorTree.CPP/examples/../sample_nodes -I/workspace/BehaviorTree.CPP/include -I/workspace/BehaviorTree.CPP/3rdparty/cppzmq -O3 -DNDEBUG -std=gnu++17   -Wpedantic -fno-omit-frame-pointer -o CMakeFiles/test_plugin_executor.dir/plugin_example/plugin_executor.cpp.o -c /workspace/BehaviorTree.CPP/examples/plugin_example/plugin_executor.cpp",
   "file": "/workspace/BehaviorTree.CPP/examples/plugin_example/plugin_executor.cpp",
   "output": "/workspace/BehaviorTree.CPP/build_from_app/examples/CMakeFiles/test_plugin_executor.dir/plugin_example/plugin_executor.cpp.o"
 }
