@@ -2,69 +2,171 @@
 
 <BehaviorTree ID="MainMission">
   <ReactiveFallback name="mission_root">
-      <Sequence name="mission_sequence">
-        <SubTree ID="UAV_Search"/>
-        <SubTree ID="USV_Track"/>
-        <SubTree ID="Joint_Encircle"/>
+
+    <!-- MAIN MISSION -->
+    <Sequence name="mission_sequence">
+      <SubTree ID="UAV_Search"/>
+      <SubTree ID="USV_Track"/>
+      <SubTree ID="Joint_Encircle"/>
+    </Sequence>
+
+    <!-- RECOVERY (NO ReturnHome anymore) -->
+    <Sequence name="abort_or_recover">
+
+      <!-- UAV return -->
+      <Sequence>
+        <navigation_NavigateToPose agent_id="uav_1" pose="{home_pose}"/>
+        <mavros_CommandLand agent_id="uav_1"/>
       </Sequence>
-      <Sequence name="abort_or_recover">
-        <ReturnHome vehicle_id="uav_1"/>
-        <ReturnHome vehicle_id="uav_2"/>
-        <ReturnHome vehicle_id="uav_3"/>
-        <ReturnHome vehicle_id="uav_4"/>
-        <ReturnHome vehicle_id="uav_5"/>
-        <ReturnHome vehicle_id="ugv_1"/>
-        <ReturnHome vehicle_id="ugv_2"/>
-        <ReturnHome vehicle_id="usv_1"/>
-        <ReturnHome vehicle_id="usv_2"/>
+
+      <Sequence>
+        <navigation_NavigateToPose agent_id="uav_2" pose="{home_pose}"/>
+        <mavros_CommandLand agent_id="uav_2"/>
       </Sequence>
+
+      <Sequence>
+        <navigation_NavigateToPose agent_id="uav_3" pose="{home_pose}"/>
+        <mavros_CommandLand agent_id="uav_3"/>
+      </Sequence>
+
+      <Sequence>
+        <navigation_NavigateToPose agent_id="uav_4" pose="{home_pose}"/>
+        <mavros_CommandLand agent_id="uav_4"/>
+      </Sequence>
+
+      <Sequence>
+        <navigation_NavigateToPose agent_id="uav_5" pose="{home_pose}"/>
+        <mavros_CommandLand agent_id="uav_5"/>
+      </Sequence>
+
+      <!-- Ground / sea -->
+      <navigation_NavigateToPose agent_id="ugv_1" pose="{home_pose}"/>
+      <navigation_NavigateToPose agent_id="ugv_2" pose="{home_pose}"/>
+      <navigation_NavigateToPose agent_id="usv_1" pose="{home_pose}"/>
+      <navigation_NavigateToPose agent_id="usv_2" pose="{home_pose}"/>
+
+    </Sequence>
+
   </ReactiveFallback>
 </BehaviorTree>
 
 <BehaviorTree ID="CommonSafety">
   <Sequence>
-    <BatteryOK vehicle_id="{vehicle_id}" min_battery_pct="{min_battery_pct}"/>
-    <WithinGeofence vehicle_id="{vehicle_id}" geofence_id="{geofence_id}"/>
-    <OutsideRestrictedZone vehicle_id="{vehicle_id}" restricted_zone_list="{restricted_zone_list}"/>
+    <mavros_BatteryOK agent_id="{vehicle_id}" min_battery_pct="{min_battery_pct}"/>
+    <mavros_StateOK agent_id="{vehicle_id}"/>
   </Sequence>
 </BehaviorTree>
 
 <BehaviorTree ID="UAV_Search">
   <Sequence>
-    <SubTree ID="CommonSafety" vehicle_id="uav_1" min_battery_pct="20.0" geofence_id="{geofence_id}" restricted_zone_list="{restricted_zone_list}"/>
-    <Timeout msec="60000">
-      <GoToArea vehicle_id="uav_1" area_id="{mission_area}"/>
-    </Timeout>
+
+    <!-- Safety -->
+    <SubTree ID="CommonSafety"
+             vehicle_id="uav_1"
+             min_battery_pct="20.0"/>
+
+    <!-- Set task -->
+    <mission_SetAgentTask agent_id="uav_1" task="search"/>
+
+    <!-- Get search area -->
+    <exploration_GetSearchArea mission_area="{mission_area}" search_area="{search_area}"/>
+
+    <!-- Partition -->
+    <exploration_PartitionSearchArea search_area="{search_area}" partitions="{partitions}"/>
+
+    <!-- Assign -->
+    <exploration_AssignPartitions agents="uav_1" partitions="{partitions}" assignments="{assignments}"/>
+
+    <!-- Get assigned partition -->
+    <exploration_GetAgentAssignedPartitionId
+        agent_id="uav_1"
+        assignments="{assignments}"
+        partition_id="{partition_id}"/>
+
+    <!-- Get polygon -->
+    <exploration_GetPartitionPolygon
+        partitions="{partitions}"
+        partition_id="{partition_id}"
+        polygon="{polygon}"/>
+
+    <!-- Find ingress -->
+    <exploration_FindIngressPoint polygon="{polygon}" ingress_point="{ingress}"/>
+
+    <!-- Convert to pose -->
+    <mission_PointToPoseStamped point="{ingress}" pose_stamped="{goal_pose}"/>
+
+    <!-- Navigate -->
+    <navigation_NavigateToPose agent_id="uav_1" pose="{goal_pose}"/>
+
+    <!-- Exploration loop -->
     <RetryUntilSuccessful num_attempts="2">
-      <Timeout msec="150000">
-        <SearchArea vehicle_id="uav_1" area_id="{mission_area}" pattern="lawnmower" sensor_mode="thermal"/>
-      </Timeout>
+      <Sequence>
+
+        <exploration_PlanNextViewpoint
+            polygon="{polygon}"
+            agent_id="uav_1"
+            viewpoint="{viewpoint}"/>
+
+        <mission_PointToPoseStamped
+            point="{viewpoint}"
+            pose_stamped="{view_pose}"/>
+
+        <navigation_NavigateToPose
+            agent_id="uav_1"
+            pose="{view_pose}"/>
+
+      </Sequence>
     </RetryUntilSuccessful>
+
+    <!-- TEMP detection -->
     <TargetDetected source_vehicle="uav_1" target_id="{target_id}"/>
+
   </Sequence>
 </BehaviorTree>
 
 <BehaviorTree ID="USV_Track">
   <Sequence>
-    <SubTree ID="CommonSafety" vehicle_id="uav_3" min_battery_pct="20.0" geofence_id="{geofence_id}" restricted_zone_list="{restricted_zone_list}"/>
+
+    <SubTree ID="CommonSafety"
+             vehicle_id="usv_1"
+             min_battery_pct="20.0"/>
+
+    <!-- still placeholder -->
     <Timeout msec="30000">
-      <HandoffTarget vehicle_id="uav_3" target_id="{target_id}"/>
+      <HandoffTarget vehicle_id="usv_1" target_id="{target_id}"/>
     </Timeout>
-    <TargetAssigned vehicle_id="uav_3" target_id="{target_id}"/>
+
+    <TargetAssigned vehicle_id="usv_1" target_id="{target_id}"/>
+
     <Timeout msec="90000">
-      <TrackTarget vehicle_id="uav_3" target_id="{target_id}"/>
+      <TrackTarget vehicle_id="usv_1" target_id="{target_id}"/>
     </Timeout>
-    <TrackStable vehicle_id="uav_3" target_id="{target_id}"/>
+
+    <TrackStable vehicle_id="usv_1" target_id="{target_id}"/>
+
   </Sequence>
 </BehaviorTree>
 
 <BehaviorTree ID="Joint_Encircle">
   <Timeout msec="60000">
-  <Parallel success_count="3" failure_count="1">
-    <EncircleTarget vehicle_id="uav_5" target_id="{target_id}" radius_m="18.0" standoff_m="10.0"/>
-    <EncircleTarget vehicle_id="ugv_2" target_id="{target_id}" radius_m="18.0" standoff_m="10.0"/>
-    <EncircleTarget vehicle_id="usv_2" target_id="{target_id}" radius_m="18.0" standoff_m="10.0"/>
-  </Parallel>
+    <Parallel success_count="3" failure_count="1">
+
+      <EncircleTarget vehicle_id="uav_5"
+                      target_id="{target_id}"
+                      radius_m="18.0"
+                      standoff_m="10.0"/>
+
+      <EncircleTarget vehicle_id="ugv_2"
+                      target_id="{target_id}"
+                      radius_m="18.0"
+                      standoff_m="10.0"/>
+
+      <EncircleTarget vehicle_id="usv_2"
+                      target_id="{target_id}"
+                      radius_m="18.0"
+                      standoff_m="10.0"/>
+
+    </Parallel>
   </Timeout>
 </BehaviorTree>
 

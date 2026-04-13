@@ -6,12 +6,12 @@
 #include <iostream>
 #include <thread>
 
-void RegisterBasicNodes(BT::BehaviorTreeFactory &factory);
+void RegisterAllNodes(BT::BehaviorTreeFactory &factory);
 
 int main()
 {
     BT::BehaviorTreeFactory factory;
-    RegisterBasicNodes(factory);
+    RegisterAllNodes(factory);
 
     auto tree = factory.createTreeFromFile("generated/main_mission.xml");
 

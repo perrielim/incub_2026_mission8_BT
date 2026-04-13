@@ -1,0 +1,41 @@
+(2) how does XML look like? (it references pre defined behaviours) how to link multiple XMLs together? 
+(3) visualisation of XML files. what tool? 
+(4) how to change the BT at RUNTIME?? or restart and reload BT?? 
+
+Mission behaviours (behaviour - behaviour_string used in autonomy stack)
+- get polygon centroid - mission_GetPolygonCentroid
+- lla to pose - mission_LLAToPose
+- override pose altitude - mission_OverridePoseAltitude
+- point to pose stamped - mission_PointToPoseStamped
+- set agent task - mission_SetAgentTask
+- set team task - mission_SetTeamTask
+- conditions: is_agent_in_area, is_agent_task
+
+Mavros behaviours
+- command arm - mavros_CommandArm
+- command land - mavros_CommandLand
+- command takeoff - mavros_CommandTakeOff
+- set home - mavros_SetHome
+- set mode - mavros_SetMode
+- set point local - mavros_SetPointLocal
+- conditions: battery, state
+
+Navigation 
+- navigate to pose - navigation_NavigateToPose
+
+Exploration 
+- assign partitions - exploration_AssignPartitions
+- deconflict partitions - exploration_DeconflictAssignments
+- find ingress point - exploration_FindIngressPoint
+- get agent assigned partition id - exploration_GetAgentAssignedPartitionId
+- get partition polygon - exploration_GetPartitionPolygon
+- get search area - exploration_GetSearchArea
+- partition search area - exploration_PartitionSearchArea
+- plan next waypoint - exploration_PlanNextViewpoint
+- set agent exploration status - exploration_SetAgentExplorationStatus
+- set partition assignments - exploration_SetPartitionAssignments
+- set partition completion - exploration_SetPartitionCompletion
+- set partitions - exploration_SetPartitions
+- conditions: is_all_partitions complete, is_partition_complete, is_partition_set 
+
+
