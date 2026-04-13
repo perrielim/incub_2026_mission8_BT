@@ -1,0 +1,80 @@
+platforms:
+  quadrotor:
+    domain: air
+    supports_actions:
+      - Idle
+      - GoToArea
+      - SearchArea
+      - DetectTarget
+      - TrackTarget
+      - EncircleTarget
+      - ReturnHome
+    defaults:
+      search_pattern: lawnmower
+      sensor_mode:
+        day: rgb
+        night: thermal
+    limits:
+      min_battery_abort_pct: 20.0
+      max_speed_mps: 12.0
+      min_safe_separation_m: 10.0
+  fixed_wing:
+    domain: air
+    supports_actions:
+      - Idle
+      - GoToArea
+      - SearchArea
+      - DetectTarget
+      - TrackTarget
+      - ReturnHome
+    defaults:
+      search_pattern: racetrack
+      sensor_mode:
+        day: rgb
+        night: thermal
+    limits:
+      min_battery_abort_pct: 25.0
+      max_speed_mps: 22.0
+      min_safe_separation_m: 20.0
+
+  usv:
+    domain: sea
+    supports_actions:
+      - Idle
+      - GoToArea
+      - HandoffTarget
+      - TrackTarget
+      - EncircleTarget
+      - ReturnHome
+    defaults:
+      search_pattern: sector_scan
+      sensor_mode:
+        day: rgb_radar
+        night: radar_thermal
+    limits:
+      min_battery_abort_pct: 20.0
+      max_speed_mps: 6.0
+      min_safe_separation_m: 12.0
+
+  ugv:
+    domain: land
+    supports_actions:
+      - Idle
+      - GoToArea
+      - SearchArea
+      - DetectTarget
+      - TrackTarget
+      - EncircleTarget
+      - ReturnHome
+    defaults:
+      search_pattern: corridor_sweep
+      sensor_mode:
+        day: lidar_rgb
+        night: lidar_thermal
+    limits:
+      min_battery_abort_pct: 20.0
+      max_speed_mps: 3.0
+      min_safe_separation_m: 5.0
+
+policy:
+  if_priority_safety_root: ReactiveFallback

@@ -1,0 +1,11 @@
+{
+    "name": "bt-mission-prototype",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/incub_bt_prototype,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace/incub_bt_prototype",
+    "forwardPorts": [
+        1667
+    ]
+}
