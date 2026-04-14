@@ -1,1 +1,0 @@
-/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/bt_runner.dir/src/main.cpp.o CMakeFiles/bt_runner.dir/src/nodes_basic.cpp.o -o bt_runner  -Wl,-rpath,/workspace/BehaviorTree.CPP/build_from_app /workspace/BehaviorTree.CPP/build_from_app/libbehaviortree_cpp.so /usr/lib/x86_64-linux-gnu/libzmq.so 
