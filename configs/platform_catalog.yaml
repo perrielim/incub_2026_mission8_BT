@@ -1,80 +1,452 @@
 platforms:
+
   quadrotor:
     domain: air
-    supports_actions:
-      - Idle
-      - GoToArea
-      - SearchArea
-      - DetectTarget
-      - TrackTarget
-      - EncircleTarget
-      - ReturnHome
+
+    capabilities:
+      navigation: true
+      exploration: true
+      tracking: true
+      encirclement: true
+      coordination: true
+      handoff_target: true
+      recovery_land: true
+
+    sensors:
+      rgb:
+        enabled: true
+      thermal:
+        enabled: true
+      lidar:
+        enabled: false
+      radar:
+        enabled: false
+      gps:
+        enabled: true
+      imu:
+        enabled: true
+
     defaults:
-      search_pattern: lawnmower
       sensor_mode:
         day: rgb
         night: thermal
-    limits:
+      search_pattern: lawnmower
+      mode: OFFBOARD
+      takeoff_altitude_m: 30.0
       min_battery_abort_pct: 20.0
+      home_pose: home_uav
+      encircle_radius_m: 18.0
+      encircle_standoff_m: 10.0
+      exploration_status: searching
+
+    limits:
       max_speed_mps: 12.0
       min_safe_separation_m: 10.0
+      max_operating_altitude_m: 120.0
+
+    bt_nodes:
+      mission:
+        - mission_GetPolygonCentroid
+        - mission_LLAToPose
+        - mission_OverridePoseAltitude
+        - mission_PointToPoseStamped
+        - mission_SetAgentTask
+        - mission_SetTeamTask
+        - mission_IsAgentInArea
+        - mission_IsAgentTask
+
+      mavros:
+        - mavros_CommandArm
+        - mavros_CommandLand
+        - mavros_CommandTakeOff
+        - mavros_SetHome
+        - mavros_SetMode
+        - mavros_SetPointLocal
+        - mavros_BatteryOK
+        - mavros_StateOK
+
+      navigation:
+        - navigation_NavigateToPose
+
+      exploration:
+        - exploration_AssignPartitions
+        - exploration_DeconflictAssignments
+        - exploration_FindIngressPoint
+        - exploration_GetAgentAssignedPartitionId
+        - exploration_GetPartitionPolygon
+        - exploration_GetSearchArea
+        - exploration_PartitionSearchArea
+        - exploration_PlanNextViewpoint
+        - exploration_SetAgentExplorationStatus
+        - exploration_SetPartitionAssignments
+        - exploration_SetPartitionCompletion
+        - exploration_SetPartitions
+        - exploration_IsAllPartitionsComplete
+        - exploration_IsPartitionComplete
+        - exploration_IsPartitionSet
+
+      engagement:
+        - TargetDetected
+        - HandoffTarget
+        - TargetAssigned
+        - TrackTarget
+        - TrackStable
+        - EncircleTarget
+
+    node_defaults:
+      mavros_CommandTakeOff:
+        altitude: 30.0
+
+      mavros_SetMode:
+        mode: OFFBOARD
+
+      mavros_BatteryOK:
+        min_battery_pct: 20.0
+
+      mission_SetAgentTask:
+        task: search
+
+      exploration_SetAgentExplorationStatus:
+        status: searching
+
+      navigation_NavigateToPose:
+        pose: "{goal_pose}"
+
+      TargetDetected:
+        source_vehicle: "{agent_id}"
+
+      TrackTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+
+      EncircleTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+        radius_m: 18.0
+        standoff_m: 10.0
+
+
   fixed_wing:
     domain: air
-    supports_actions:
-      - Idle
-      - GoToArea
-      - SearchArea
-      - DetectTarget
-      - TrackTarget
-      - ReturnHome
+
+    capabilities:
+      navigation: true
+      exploration: limited
+      tracking: true
+      encirclement: false
+      coordination: true
+      handoff_target: true
+      recovery_land: false
+
+    sensors:
+      rgb:
+        enabled: true
+      thermal:
+        enabled: true
+      lidar:
+        enabled: false
+      radar:
+        enabled: false
+      gps:
+        enabled: true
+      imu:
+        enabled: true
+
     defaults:
-      search_pattern: racetrack
       sensor_mode:
         day: rgb
         night: thermal
-    limits:
+      search_pattern: racetrack
+      mode: AUTO
       min_battery_abort_pct: 25.0
+      home_pose: home_fixed_wing
+      exploration_status: searching
+
+    limits:
       max_speed_mps: 22.0
       min_safe_separation_m: 20.0
+      max_operating_altitude_m: 300.0
+      turning_radius_m: 60.0
+
+    bt_nodes:
+      mission:
+        - mission_GetPolygonCentroid
+        - mission_LLAToPose
+        - mission_OverridePoseAltitude
+        - mission_PointToPoseStamped
+        - mission_SetAgentTask
+        - mission_SetTeamTask
+        - mission_IsAgentInArea
+        - mission_IsAgentTask
+
+      mavros:
+        - mavros_SetHome
+        - mavros_SetMode
+        - mavros_SetPointLocal
+        - mavros_BatteryOK
+        - mavros_StateOK
+
+      navigation:
+        - navigation_NavigateToPose
+
+      exploration:
+        - exploration_FindIngressPoint
+        - exploration_GetSearchArea
+        - exploration_GetPartitionPolygon
+        - exploration_PlanNextViewpoint
+        - exploration_SetAgentExplorationStatus
+
+      engagement:
+        - TargetDetected
+        - HandoffTarget
+        - TargetAssigned
+        - TrackTarget
+        - TrackStable
+
+    node_defaults:
+      mavros_SetMode:
+        mode: AUTO
+
+      mavros_BatteryOK:
+        min_battery_pct: 25.0
+
+      mission_SetAgentTask:
+        task: overwatch
+
+      exploration_SetAgentExplorationStatus:
+        status: searching
+
+      TargetDetected:
+        source_vehicle: "{agent_id}"
+
+      TrackTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+
 
   usv:
     domain: sea
-    supports_actions:
-      - Idle
-      - GoToArea
-      - HandoffTarget
-      - TrackTarget
-      - EncircleTarget
-      - ReturnHome
+
+    capabilities:
+      navigation: true
+      exploration: true
+      tracking: true
+      encirclement: true
+      coordination: true
+      handoff_target: true
+      recovery_land: false
+
+    sensors:
+      rgb:
+        enabled: true
+      thermal:
+        enabled: true
+      lidar:
+        enabled: false
+      radar:
+        enabled: true
+      gps:
+        enabled: true
+      imu:
+        enabled: true
+
     defaults:
-      search_pattern: sector_scan
       sensor_mode:
         day: rgb_radar
         night: radar_thermal
-    limits:
+      search_pattern: sector_scan
       min_battery_abort_pct: 20.0
+      home_pose: home_usv
+      encircle_radius_m: 18.0
+      encircle_standoff_m: 10.0
+      exploration_status: searching
+
+    limits:
       max_speed_mps: 6.0
       min_safe_separation_m: 12.0
 
+    bt_nodes:
+      mission:
+        - mission_GetPolygonCentroid
+        - mission_LLAToPose
+        - mission_PointToPoseStamped
+        - mission_SetAgentTask
+        - mission_SetTeamTask
+        - mission_IsAgentInArea
+        - mission_IsAgentTask
+
+      mavros:
+        - mavros_SetPointLocal
+        - mavros_BatteryOK
+        - mavros_StateOK
+
+      navigation:
+        - navigation_NavigateToPose
+
+      exploration:
+        - exploration_AssignPartitions
+        - exploration_DeconflictAssignments
+        - exploration_FindIngressPoint
+        - exploration_GetAgentAssignedPartitionId
+        - exploration_GetPartitionPolygon
+        - exploration_GetSearchArea
+        - exploration_PartitionSearchArea
+        - exploration_PlanNextViewpoint
+        - exploration_SetAgentExplorationStatus
+        - exploration_SetPartitionAssignments
+        - exploration_SetPartitionCompletion
+        - exploration_SetPartitions
+        - exploration_IsAllPartitionsComplete
+        - exploration_IsPartitionComplete
+        - exploration_IsPartitionSet
+
+      engagement:
+        - TargetDetected
+        - HandoffTarget
+        - TargetAssigned
+        - TrackTarget
+        - TrackStable
+        - EncircleTarget
+
+    node_defaults:
+      mavros_BatteryOK:
+        min_battery_pct: 20.0
+
+      mission_SetAgentTask:
+        task: track
+
+      exploration_SetAgentExplorationStatus:
+        status: searching
+
+      navigation_NavigateToPose:
+        pose: "{goal_pose}"
+
+      TargetDetected:
+        source_vehicle: "{agent_id}"
+
+      HandoffTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+
+      TrackTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+
+      EncircleTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+        radius_m: 18.0
+        standoff_m: 10.0
+
+
   ugv:
     domain: land
-    supports_actions:
-      - Idle
-      - GoToArea
-      - SearchArea
-      - DetectTarget
-      - TrackTarget
-      - EncircleTarget
-      - ReturnHome
+
+    capabilities:
+      navigation: true
+      exploration: true
+      tracking: true
+      encirclement: true
+      coordination: true
+      handoff_target: false
+      recovery_land: false
+
+    sensors:
+      rgb:
+        enabled: true
+      thermal:
+        enabled: true
+      lidar:
+        enabled: true
+      radar:
+        enabled: false
+      gps:
+        enabled: true
+      imu:
+        enabled: true
+
     defaults:
-      search_pattern: corridor_sweep
       sensor_mode:
         day: lidar_rgb
         night: lidar_thermal
-    limits:
+      search_pattern: corridor_sweep
       min_battery_abort_pct: 20.0
+      home_pose: home_ugv
+      encircle_radius_m: 18.0
+      encircle_standoff_m: 10.0
+      exploration_status: searching
+
+    limits:
       max_speed_mps: 3.0
       min_safe_separation_m: 5.0
+
+    bt_nodes:
+      mission:
+        - mission_GetPolygonCentroid
+        - mission_LLAToPose
+        - mission_PointToPoseStamped
+        - mission_SetAgentTask
+        - mission_SetTeamTask
+        - mission_IsAgentInArea
+        - mission_IsAgentTask
+
+      mavros:
+        - mavros_BatteryOK
+        - mavros_StateOK
+
+      navigation:
+        - navigation_NavigateToPose
+
+      exploration:
+        - exploration_AssignPartitions
+        - exploration_DeconflictAssignments
+        - exploration_FindIngressPoint
+        - exploration_GetAgentAssignedPartitionId
+        - exploration_GetPartitionPolygon
+        - exploration_GetSearchArea
+        - exploration_PartitionSearchArea
+        - exploration_PlanNextViewpoint
+        - exploration_SetAgentExplorationStatus
+        - exploration_SetPartitionAssignments
+        - exploration_SetPartitionCompletion
+        - exploration_SetPartitions
+        - exploration_IsAllPartitionsComplete
+        - exploration_IsPartitionComplete
+        - exploration_IsPartitionSet
+
+      engagement:
+        - TargetDetected
+        - TargetAssigned
+        - TrackTarget
+        - TrackStable
+        - EncircleTarget
+
+    node_defaults:
+      mavros_BatteryOK:
+        min_battery_pct: 20.0
+
+      mission_SetAgentTask:
+        task: search
+
+      exploration_SetAgentExplorationStatus:
+        status: searching
+
+      navigation_NavigateToPose:
+        pose: "{goal_pose}"
+
+      TargetDetected:
+        source_vehicle: "{agent_id}"
+
+      TrackTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+
+      EncircleTarget:
+        vehicle_id: "{agent_id}"
+        target_id: "{target_id}"
+        radius_m: 18.0
+        standoff_m: 10.0
+
 
 policy:
   if_priority_safety_root: ReactiveFallback
