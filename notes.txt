@@ -121,3 +121,74 @@ Partition Search Area
 
 CueNextSearchMove
 - exploration_PlanNextViewpoint
+
+
+
+VALIDATION DIMENSIONS
+(1) Ensures the BT is correctly formed and logically structured.
+
+Checks:
+
+XML is valid and all SubTree references resolve
+Exactly one entry root exists
+Root type matches policy (e.g. ReactiveFallback for safety-preemptive missions)
+Control flow is well-formed:
+Sequence, Fallback have ≥1 child
+Parallel has valid success_count / failure_count
+Mission structure is sensible:
+phases composed correctly (Sequence vs Parallel)
+recovery/fallback branches exist where expected
+All leaf nodes:
+use valid agent_id / vehicle_id
+are supported by the platform (bt_nodes)
+No undefined blackboard variables
+No dead/unreferenced subtrees
+No invalid patterns (e.g. serial recovery when parallel is intended)
+3.2 Mission–Intent Consistency
+
+(2) Ensures the BT reflects what the user specified.
+
+Checks:
+
+Domain coverage: required domains (air/sea/land) are present
+Asset coverage: correct number and identity of assets; all assigned or explicitly unused
+Event coverage: all mission phases exist (search, track, encircle, etc.)
+Semantic matching:
+search → exploration nodes
+track → handoff/track nodes
+encircle → encirclement nodes
+Ordering:
+sequential tasks → Sequence
+concurrent tasks → Parallel
+Allocation: assets are assigned to the correct roles (e.g. UAV→search, USV→track)
+3.3 Capability Validation
+
+(3) Ensures tasks assigned are supported by the platform.
+
+Checks:
+
+Task ↔ capability match (from catalogue)
+e.g. no encirclement for fixed wing
+no handoff for UGV
+Node validity:
+only allowed bt_nodes used per platform
+Recovery correctness:
+required behaviors (e.g. UAV landing) are present
+Constraint compliance:
+e.g. “limited exploration” respected
+3.4 Feasibility Validation
+
+(4) Ensures the mission is physically and operationally achievable.
+
+Checks:
+
+Mission time ≤ endurance (with reserve)
+Search area ≤ achievable coverage (given speed + sensor model)
+Partition size appropriate per asset
+Motion constraints respected:
+speed, altitude, turning radius, terrain
+Task suitability:
+correct search pattern for platform
+target speed within tracking limits
+Coordination feasibility:
+valid encirclement team size and domain compatibility
