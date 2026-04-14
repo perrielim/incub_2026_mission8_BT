@@ -117,43 +117,43 @@ DEFINE_CONDITION_NODE(mission_IsAgentTask,
 )
 
 // -----------------------------------------------------------------------------
-// MAVROS
+// controller
 // -----------------------------------------------------------------------------
 
-DEFINE_SYNC_ACTION_NODE(mavros_CommandArm,
+DEFINE_SYNC_ACTION_NODE(controller_CommandArm,
     InputPort<std::string>("agent_id")
 )
 
-DEFINE_SYNC_ACTION_NODE(mavros_CommandLand,
+DEFINE_SYNC_ACTION_NODE(controller_CommandLand,
     InputPort<std::string>("agent_id")
 )
 
-DEFINE_SYNC_ACTION_NODE(mavros_CommandTakeOff,
+DEFINE_SYNC_ACTION_NODE(controller_CommandTakeOff,
     InputPort<std::string>("agent_id"),
     InputPort<double>("altitude")
 )
 
-DEFINE_SYNC_ACTION_NODE(mavros_SetHome,
+DEFINE_SYNC_ACTION_NODE(controller_SetHome,
     InputPort<std::string>("agent_id"),
     InputPort<std::string>("home_pose")
 )
 
-DEFINE_SYNC_ACTION_NODE(mavros_SetMode,
+DEFINE_SYNC_ACTION_NODE(controller_SetMode,
     InputPort<std::string>("agent_id"),
     InputPort<std::string>("mode")
 )
 
-DEFINE_SYNC_ACTION_NODE(mavros_SetPointLocal,
+DEFINE_SYNC_ACTION_NODE(controller_SetPointLocal,
     InputPort<std::string>("agent_id"),
     InputPort<std::string>("pose")
 )
 
-DEFINE_CONDITION_NODE(mavros_BatteryOK,
+DEFINE_CONDITION_NODE(controller_BatteryOK,
     InputPort<std::string>("agent_id"),
     InputPort<double>("min_battery_pct")
 )
 
-DEFINE_CONDITION_NODE(mavros_StateOK,
+DEFINE_CONDITION_NODE(controller_StateOK,
     InputPort<std::string>("agent_id")
 )
 
@@ -295,14 +295,14 @@ void RegisterAllNodes(BT::BehaviorTreeFactory& factory)
     factory.registerNodeType<mission_IsAgentInArea>("mission_IsAgentInArea");
     factory.registerNodeType<mission_IsAgentTask>("mission_IsAgentTask");
 
-    factory.registerNodeType<mavros_CommandArm>("mavros_CommandArm");
-    factory.registerNodeType<mavros_CommandLand>("mavros_CommandLand");
-    factory.registerNodeType<mavros_CommandTakeOff>("mavros_CommandTakeOff");
-    factory.registerNodeType<mavros_SetHome>("mavros_SetHome");
-    factory.registerNodeType<mavros_SetMode>("mavros_SetMode");
-    factory.registerNodeType<mavros_SetPointLocal>("mavros_SetPointLocal");
-    factory.registerNodeType<mavros_BatteryOK>("mavros_BatteryOK");
-    factory.registerNodeType<mavros_StateOK>("mavros_StateOK");
+    factory.registerNodeType<controller_CommandArm>("controller_CommandArm");
+    factory.registerNodeType<controller_CommandLand>("controller_CommandLand");
+    factory.registerNodeType<controller_CommandTakeOff>("controller_CommandTakeOff");
+    factory.registerNodeType<controller_SetHome>("controller_SetHome");
+    factory.registerNodeType<controller_SetMode>("controller_SetMode");
+    factory.registerNodeType<controller_SetPointLocal>("controller_SetPointLocal");
+    factory.registerNodeType<controller_BatteryOK>("controller_BatteryOK");
+    factory.registerNodeType<controller_StateOK>("controller_StateOK");
 
     factory.registerNodeType<navigation_NavigateToPose>("navigation_NavigateToPose");
 

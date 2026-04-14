@@ -55,15 +55,15 @@ platforms:
         - mission_IsAgentInArea
         - mission_IsAgentTask
 
-      mavros:
-        - mavros_CommandArm
-        - mavros_CommandLand
-        - mavros_CommandTakeOff
-        - mavros_SetHome
-        - mavros_SetMode
-        - mavros_SetPointLocal
-        - mavros_BatteryOK
-        - mavros_StateOK
+      controller:
+        - controller_CommandArm
+        - controller_CommandLand
+        - controller_CommandTakeOff
+        - controller_SetHome
+        - controller_SetMode
+        - controller_SetPointLocal
+        - controller_BatteryOK
+        - controller_StateOK
 
       navigation:
         - navigation_NavigateToPose
@@ -94,13 +94,13 @@ platforms:
         - EncircleTarget
 
     node_defaults:
-      mavros_CommandTakeOff:
+      controller_CommandTakeOff:
         altitude: 30.0
 
-      mavros_SetMode:
+      controller_SetMode:
         mode: OFFBOARD
 
-      mavros_BatteryOK:
+      controller_BatteryOK:
         min_battery_pct: 20.0
 
       mission_SetAgentTask:
@@ -179,12 +179,12 @@ platforms:
         - mission_IsAgentInArea
         - mission_IsAgentTask
 
-      mavros:
-        - mavros_SetHome
-        - mavros_SetMode
-        - mavros_SetPointLocal
-        - mavros_BatteryOK
-        - mavros_StateOK
+      controller:
+        - controller_SetHome
+        - controller_SetMode
+        - controller_SetPointLocal
+        - controller_BatteryOK
+        - controller_StateOK
 
       navigation:
         - navigation_NavigateToPose
@@ -204,10 +204,10 @@ platforms:
         - TrackStable
 
     node_defaults:
-      mavros_SetMode:
+      controller_SetMode:
         mode: AUTO
 
-      mavros_BatteryOK:
+      controller_BatteryOK:
         min_battery_pct: 25.0
 
       mission_SetAgentTask:
@@ -275,10 +275,10 @@ platforms:
         - mission_IsAgentInArea
         - mission_IsAgentTask
 
-      mavros:
-        - mavros_SetPointLocal
-        - mavros_BatteryOK
-        - mavros_StateOK
+      controller:
+        - controller_SetPointLocal
+        - controller_BatteryOK
+        - controller_StateOK
 
       navigation:
         - navigation_NavigateToPose
@@ -309,7 +309,7 @@ platforms:
         - EncircleTarget
 
     node_defaults:
-      mavros_BatteryOK:
+      controller_BatteryOK:
         min_battery_pct: 20.0
 
       mission_SetAgentTask:
@@ -390,9 +390,9 @@ platforms:
         - mission_IsAgentInArea
         - mission_IsAgentTask
 
-      mavros:
-        - mavros_BatteryOK
-        - mavros_StateOK
+      controller:
+        - controller_BatteryOK
+        - controller_StateOK
 
       navigation:
         - navigation_NavigateToPose
@@ -422,7 +422,7 @@ platforms:
         - EncircleTarget
 
     node_defaults:
-      mavros_BatteryOK:
+      controller_BatteryOK:
         min_battery_pct: 20.0
 
       mission_SetAgentTask:

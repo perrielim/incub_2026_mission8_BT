@@ -11,13 +11,13 @@ Mission behaviours (behaviour - behaviour_string used in autonomy stack)
 - set team task - mission_SetTeamTask
 - conditions: is_agent_in_area, is_agent_task
 
-Mavros behaviours
-- command arm - mavros_CommandArm
-- command land - mavros_CommandLand
-- command takeoff - mavros_CommandTakeOff
-- set home - mavros_SetHome
-- set mode - mavros_SetMode
-- set point local - mavros_SetPointLocal
+controller behaviours
+- command arm - controller_CommandArm
+- command land - controller_CommandLand
+- command takeoff - controller_CommandTakeOff
+- set home - controller_SetHome
+- set mode - controller_SetMode
+- set point local - controller_SetPointLocal
 - conditions: battery, state
 
 Navigation 
@@ -85,18 +85,18 @@ Follow-On
 
 Navigate
 - navigation_NavigateToPose
-- mavros_SetPointLocal
+- controller_SetPointLocal
 
 Launch / Recover
-- mavros_CommandArm
-- mavros_CommandTakeOff
-- mavros_CommandLand
-- mavros_SetMode
-- mavros_SetHome
+- controller_CommandArm
+- controller_CommandTakeOff
+- controller_CommandLand
+- controller_SetMode
+- controller_SetHome
 
 Health Monitoring
-- mavros_BatteryOK
-- mavros_StateOK
+- controller_BatteryOK
+- controller_StateOK
 
 Task Monitoring
 - mission_IsAgentInArea

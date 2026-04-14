@@ -69,7 +69,7 @@ def xml_to_dot(xml_text: str) -> str:
 
     def short_tag(tag: str) -> str:
         # navigation_NavigateToPose -> NavigateToPose
-        # mavros_CommandLand -> CommandLand
+        # controller_CommandLand -> CommandLand
         # exploration_GetSearchArea -> GetSearchArea
         if "_" in tag:
             return tag.split("_", 1)[1]
