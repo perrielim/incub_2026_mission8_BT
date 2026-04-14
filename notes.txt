@@ -38,4 +38,86 @@ Exploration
 - set partitions - exploration_SetPartitions
 - conditions: is_all_partitions complete, is_partition_complete, is_partition_set 
 
+SUGGESTED PARENT ACTION CLASSES
 
+Search
+- exploration_GetSearchArea
+- exploration_PartitionSearchArea
+- exploration_AssignPartitions
+- exploration_DeconflictAssignments
+- exploration_FindIngressPoint
+- exploration_GetAgentAssignedPartitionId
+- exploration_GetPartitionPolygon
+- exploration_PlanNextViewpoint
+- exploration_SetAgentExplorationStatus
+- exploration_SetPartitionAssignments
+- exploration_SetPartitionCompletion
+- exploration_SetPartitions
+- exploration_IsAllPartitionsComplete
+- exploration_IsPartitionComplete
+- exploration_IsPartitionSet
+- navigation_NavigateToPose
+
+Assign Task
+- mission_SetAgentTask
+- mission_SetTeamTask
+
+Assign Area 
+- exploration_AssignPartitions
+- exploration_DeconflictAssignments
+- exploration_SetPartitionAssignments
+
+Assign Target
+- TargetAssigned
+
+Detect
+- TargetDetected
+
+Track
+- TrackTarget
+- TrackStable
+
+Reassign target
+- HandoffTarget
+
+Follow-On
+- EncircleTarget
+
+Navigate
+- navigation_NavigateToPose
+- mavros_SetPointLocal
+
+Launch / Recover
+- mavros_CommandArm
+- mavros_CommandTakeOff
+- mavros_CommandLand
+- mavros_SetMode
+- mavros_SetHome
+
+Health Monitoring
+- mavros_BatteryOK
+- mavros_StateOK
+
+Task Monitoring
+- mission_IsAgentInArea
+- mission_IsAgentTask
+- exploration_IsAllPartitionsComplete
+- exploration_IsPartitionComplete
+- exploration_IsPartitionSet
+- TrackStable
+
+Delineate
+- mission_GetPolygonCentroid
+- exploration_GetSearchArea
+- exploration_GetPartitionPolygon
+
+PrepareNavigationTarget
+- mission_LLAToPose
+- mission_OverridePoseAltitude
+- mission_PointToPoseStamped
+
+Partition Search Area
+- exploration_PartitionSearchArea
+
+CueNextSearchMove
+- exploration_PlanNextViewpoint
