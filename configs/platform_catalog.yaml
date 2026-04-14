@@ -514,19 +514,38 @@ platforms:
     limits:
       max_speed_mps: 3.0
       cruise_speed_mps: 2.0
-      min_safe_separation_m: 5.0
+      min_safe_separation_m: 5.0 #→ Minimum distance from: other agents, protected objects / no-go zones
       max_slope_deg: 20.0
       min_turning_radius_m: 2.5
-      obstacle_clearance_m: 0.5
+      obstacle_clearance_m: 0.5 # Required buffer distance from obstacles
       terrain_types: [road, grass, urban]
 
     feasibility:
-      endurance_min: 240
-      reserve_pct: 20
-      transit_speed_mps: 2.0
-      nominal_coverage_rate_m2_per_min: 2500
-      max_partition_area_m2: 120000
-      preferred_partition_shape: corridor_or_bounded_zone
+      endurance_min: 240 # Total available runtime (battery/fuel)
+      reserve_pct: 20 # Safety buffer (unused energy)
+      transit_speed_mps: 2.0 # moving between mission areas
+      nominal_coverage_rate_m2_per_min: 2500 # Area the system can scan/cover per minute
+      max_partition_area_m2: 120000 # Max area assigned to a single agent/task
+      preferred_partition_shape: corridor_or_bounded_zone  
+      # --------------------------------------------------------
+      # Partition Shape Preference
+      #
+      # Guides how the mission area is decomposed into subregions.
+      #
+      # corridor:
+      #   Long, narrow regions (e.g. pipelines, roads, rivers)
+      #   → Favors linear sweep / follow-path strategies
+      #
+      # bounded_zone:
+      #   Compact, enclosed areas (e.g. fields, sectors)
+      #   → Favors area coverage (e.g. lawnmower / grid patterns)
+      #
+      # Impacts:
+      #   - Path efficiency (turning, overlap, transit cost)
+      #   - Coverage strategy selection
+      #   - Task allocation and partitioning logic
+      # --------------------------------------------------------
+preferred_partition_shape: corridor_or_bounded_zone
 
     task_constraints:
       exploration:
