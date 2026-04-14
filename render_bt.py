@@ -6,6 +6,37 @@ import tempfile
 import xml.etree.ElementTree as ET
 from itertools import count
 from pathlib import Path
+import xml.etree.ElementTree as ET
+import re
+
+def scale_svg(input_path, output_path, scale):
+    tree = ET.parse(input_path)
+    root = tree.getroot()
+
+    # SVG namespace handling
+    svg_ns = "{http://www.w3.org/2000/svg}"
+
+    # Scale width / height if present
+    if "width" in root.attrib and "height" in root.attrib:
+        try:
+            root.attrib["width"] = str(float(root.attrib["width"]) * scale)
+            root.attrib["height"] = str(float(root.attrib["height"]) * scale)
+        except:
+            pass
+
+    # Wrap everything in a scaled group
+    g = ET.Element(f"{svg_ns}g")
+    g.attrib["transform"] = f"scale({scale})"
+
+    # Move existing children into <g>
+    children = list(root)
+    for child in children:
+        root.remove(child)
+        g.append(child)
+
+    root.append(g)
+
+    tree.write(output_path)
 
 
 CONTROL_NODES = {
@@ -351,21 +382,49 @@ def main() -> None:
     dot = xml_to_dot(xml_text)
 
     with tempfile.TemporaryDirectory() as tmp:
-        dot_path = Path(tmp) / "tree.dot"
-        out_path = Path(tmp) / args.output
+        tmp_dir = Path(tmp)
+        dot_path = tmp_dir / "tree.dot"
+        svg_path = tmp_dir / "tree.svg"
+        scaled_svg_path = tmp_dir / "scaled.svg"
 
         dot_path.write_text(dot, encoding="utf-8")
 
-        fmt = Path(args.output).suffix.lstrip(".").lower()
-        if not fmt:
-            raise ValueError("Output file must have an extension, e.g. .svg or .png")
-
+        # Step 1: generate SVG
         subprocess.run(
-            ["dot", f"-T{fmt}", str(dot_path), "-o", str(out_path)],
+            ["dot", "-Tsvg", str(dot_path), "-o", str(svg_path)],
             check=True,
         )
 
-        Path(args.output).write_bytes(out_path.read_bytes())
+        # Step 2: scale SVG (NO svgutils)
+        tree = ET.parse(svg_path)
+        root = tree.getroot()
+
+        scale = 0.25
+
+        # Wrap all content inside a scaled group
+        svg_ns = "{http://www.w3.org/2000/svg}"
+
+        # ---- FIX 2: scale width/height with units (pt) ----
+        def scale_len(val):
+            m = re.match(r"([0-9.]+)([a-zA-Z%]*)", val)
+            if not m:
+                return val
+            num = float(m.group(1)) * scale
+            unit = m.group(2)
+            return f"{num}{unit}"
+
+        if "width" in root.attrib:
+            root.attrib["width"] = scale_len(root.attrib["width"])
+
+        if "height" in root.attrib:
+            root.attrib["height"] = scale_len(root.attrib["height"])
+
+        # Leave viewBox unchanged
+
+        tree.write(scaled_svg_path)
+
+        # Step 3: output
+        Path(args.output).write_bytes(scaled_svg_path.read_bytes())
 
     print(f"✅ Generated: {args.output}")
 
