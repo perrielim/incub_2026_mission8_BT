@@ -60,7 +60,12 @@ def xml_to_dot(xml_text: str) -> str:
     ]
 
     def esc(text: str) -> str:
-        return text.replace("\\", "\\\\").replace('"', '\\"')
+        return (
+            text
+            .replace("\\", "\\\\")   # keep this
+            .replace('"', '\\"')     # keep this
+            .replace("\\\\n", "\\n") # 🔥 undo double-escaped newline
+        )
 
     def short_tag(tag: str) -> str:
         # navigation_NavigateToPose -> NavigateToPose
@@ -85,11 +90,11 @@ def xml_to_dot(xml_text: str) -> str:
         if tag == "Parallel":
             sc = elem.attrib.get("success_count", "?")
             fc = elem.attrib.get("failure_count", "?")
-            return f"Parallel\\nsuccess={sc} fail={fc}"
+            return f"Parallel\nsuccess={sc} fail={fc}"
 
         if tag == "Timeout":
             msec = elem.attrib.get("msec", "?")
-            return f"Timeout\\n{msec} ms"
+            return f"Timeout\n{msec} ms"
 
         if tag == "RetryUntilSuccessful":
             n = elem.attrib.get("num_attempts", "?")
