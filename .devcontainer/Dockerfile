@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y \
     python3-pip \
     libzmq3-dev \
     libsqlite3-dev \
+    graphviz \
     nlohmann-json3-dev \
     libtinyxml2-dev \
     curl \
