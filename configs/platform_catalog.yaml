@@ -5,44 +5,95 @@ platforms:
 
     capabilities:
       navigation: true
-      exploration: true
+      exploration: full              # full | limited | none
       tracking: true
-      encirclement: true
+      encirclement:
+        supported: true
       coordination: true
       handoff_target: true
-      recovery_land: true
+      recovery:
+        type: land                   # land | hover | return_to_home | glide_or_rtl | none
+        requires_flat_surface: true
 
     sensors:
-      rgb:
-        enabled: true
-      thermal:
-        enabled: true
-      lidar:
-        enabled: false
-      radar:
-        enabled: false
-      gps:
-        enabled: true
-      imu:
-        enabled: true
+      rgb: true
+      thermal: true
+      lidar: false
+      radar: false
+      gps: true
+      imu: true
+
+      perception:
+        detection_range_m: 80
+        fov_deg: 90
+        night_capable: true
 
     defaults:
-      sensor_mode:
-        day: rgb
-        night: thermal
-      search_pattern: lawnmower
       mode: OFFBOARD
       takeoff_altitude_m: 30.0
-      min_battery_abort_pct: 20.0
-      home_pose: home_uav
-      encircle_radius_m: 18.0
-      encircle_standoff_m: 10.0
+      search_pattern: lawnmower
       exploration_status: searching
+      home_pose: home_uav
+
+      encirclement:
+        radius_m: 18.0
+        standoff_m: 10.0
 
     limits:
       max_speed_mps: 12.0
-      min_safe_separation_m: 10.0
+      cruise_speed_mps: 8.0
+      max_accel_mps2: 4.0
+
       max_operating_altitude_m: 120.0
+      min_operating_altitude_m: 5.0
+
+      min_safe_separation_m: 10.0
+      wind_limit_mps: 12.0
+      rain_tolerance: low
+
+    feasibility:
+      endurance_min: 35
+      reserve_pct: 20
+
+      transit_speed_mps: 10.0
+      climb_rate_mps: 3.0
+
+      nominal_coverage_rate_m2_per_min: 15000
+      max_partition_area_m2: 400000
+      max_mission_time_min: 25
+
+    task_constraints:
+      exploration:
+        allowed_patterns: [lawnmower, spiral]
+        min_altitude_m: 20
+        max_altitude_m: 80
+
+      tracking:
+        max_target_speed_mps: 15
+        max_tracking_distance_m: 100
+        requires_line_of_sight: true
+
+      encirclement:
+        supported: true
+        min_team_size: 3
+        allowed_domains: [air, land, sea]
+        min_radius_m: 10
+        max_radius_m: 50
+        max_vertical_separation_m: 100
+
+    coordination:
+      comms_range_m: 1000
+      max_teammates: 5
+
+      handoff:
+        can_receive_from: [quadrotor, fixed_wing]
+        can_send_to: [usv, ugv]
+
+    recovery:
+      return_home_speed_mps: 10.0
+      abort_battery_pct: 20.0
+      must_land: true
+      preferred_abort_action: return_home_and_land
 
     bt_nodes:
       mission:
@@ -133,40 +184,81 @@ platforms:
       navigation: true
       exploration: limited
       tracking: true
-      encirclement: false
+      encirclement:
+        supported: false
       coordination: true
       handoff_target: true
-      recovery_land: false
+      recovery:
+        type: glide_or_rtl
+        requires_runway_or_safe_zone: true
 
     sensors:
-      rgb:
-        enabled: true
-      thermal:
-        enabled: true
-      lidar:
-        enabled: false
-      radar:
-        enabled: false
-      gps:
-        enabled: true
-      imu:
-        enabled: true
+      rgb: true
+      thermal: true
+      lidar: false
+      radar: false
+      gps: true
+      imu: true
+
+      perception:
+        detection_range_m: 120
+        fov_deg: 70
+        night_capable: true
 
     defaults:
-      sensor_mode:
-        day: rgb
-        night: thermal
-      search_pattern: racetrack
       mode: AUTO
-      min_battery_abort_pct: 25.0
-      home_pose: home_fixed_wing
+      search_pattern: racetrack
       exploration_status: searching
+      home_pose: home_fixed_wing
 
     limits:
       max_speed_mps: 22.0
+      cruise_speed_mps: 18.0
+      min_speed_mps: 12.0
       min_safe_separation_m: 20.0
       max_operating_altitude_m: 300.0
-      turning_radius_m: 60.0
+      min_turning_radius_m: 60.0
+      can_hover: false
+
+    feasibility:
+      endurance_min: 90
+      reserve_pct: 25
+      transit_speed_mps: 18.0
+      nominal_coverage_rate_m2_per_min: 35000
+      max_partition_area_m2: 1200000
+      min_partition_area_m2: 80000
+
+    task_constraints:
+      exploration:
+        mode: wide_area_only
+        allowed_patterns: [racetrack, corridor_pass]
+        disallowed_patterns:
+          - spiral
+          - hover_viewpoint_hopping
+          - dense_cell_decomposition
+        requires_forward_motion: true
+        min_altitude_m: 80
+        max_altitude_m: 250
+
+      tracking:
+        max_target_speed_mps: 25
+        preferred_role: overwatch
+        max_tracking_turn_rate_deg_s: 15
+        requires_continuous_motion: true
+
+      encirclement:
+        supported: false
+
+    coordination:
+      handoff:
+        can_receive_from: [fixed_wing, quadrotor]
+        can_send_to: [quadrotor, usv]
+      comms_range_m: 5000
+
+    recovery:
+      abort_battery_pct: 25.0
+      must_land: false
+      preferred_abort_action: return_to_safe_zone
 
     bt_nodes:
       mission:
@@ -231,39 +323,81 @@ platforms:
       navigation: true
       exploration: true
       tracking: true
-      encirclement: true
+      encirclement:
+        supported: true
       coordination: true
       handoff_target: true
-      recovery_land: false
+      recovery:
+        type: return_to_home
+        requires_docking: false
 
     sensors:
-      rgb:
-        enabled: true
-      thermal:
-        enabled: true
-      lidar:
-        enabled: false
-      radar:
-        enabled: true
-      gps:
-        enabled: true
-      imu:
-        enabled: true
+      rgb: true
+      thermal: true
+      lidar: false
+      radar: true
+      gps: true
+      imu: true
+
+      perception:
+        detection_range_m: 100
+        fov_deg: 120
+        night_capable: true
 
     defaults:
-      sensor_mode:
-        day: rgb_radar
-        night: radar_thermal
       search_pattern: sector_scan
-      min_battery_abort_pct: 20.0
-      home_pose: home_usv
-      encircle_radius_m: 18.0
-      encircle_standoff_m: 10.0
       exploration_status: searching
+      home_pose: home_usv
+
+      encirclement:
+        radius_m: 18.0
+        standoff_m: 10.0
 
     limits:
       max_speed_mps: 6.0
+      cruise_speed_mps: 4.5
       min_safe_separation_m: 12.0
+      max_current_mps: 2.0
+      shoreline_clearance_m: 10.0
+      wave_height_limit_m: 2.0
+      operating_region: water_only
+
+    feasibility:
+      endurance_min: 360
+      reserve_pct: 20
+      transit_speed_mps: 4.5
+      nominal_coverage_rate_m2_per_min: 7000
+      max_partition_area_m2: 500000
+      preferred_partition_shape: coastal_or_sector
+
+    task_constraints:
+      exploration:
+        allowed_patterns: [sector_scan, perimeter, shoreline_sweep]
+        requires_water_access: true
+
+      tracking:
+        max_target_speed_mps: 8
+        preferred_target_domains: [sea, littoral]
+        requires_line_of_sight: true
+        max_intercept_angle_deg: 60
+
+      encirclement:
+        supported: true
+        min_team_size: 3
+        allowed_domains: [sea, air]
+        min_radius_m: 12
+        max_radius_m: 60
+
+    coordination:
+      handoff:
+        can_receive_from: [quadrotor, fixed_wing, usv]
+        can_send_to: [usv, ugv]
+      comms_range_m: 3000
+
+    recovery:
+      abort_battery_pct: 20.0
+      must_land: false
+      preferred_abort_action: return_home
 
     bt_nodes:
       mission:
@@ -339,6 +473,7 @@ platforms:
         standoff_m: 10.0
 
 
+
   ugv:
     domain: land
 
@@ -346,39 +481,83 @@ platforms:
       navigation: true
       exploration: true
       tracking: true
-      encirclement: true
+      encirclement:
+        supported: true
       coordination: true
       handoff_target: false
-      recovery_land: false
+      recovery:
+        type: return_to_home
+        requires_flat_route: true
 
     sensors:
-      rgb:
-        enabled: true
-      thermal:
-        enabled: true
-      lidar:
-        enabled: true
-      radar:
-        enabled: false
-      gps:
-        enabled: true
-      imu:
-        enabled: true
+      rgb: true
+      thermal: true
+      lidar: true
+      radar: false
+      gps: true
+      imu: true
+
+      perception:
+        detection_range_m: 40
+        fov_deg: 100
+        night_capable: true
 
     defaults:
-      sensor_mode:
-        day: lidar_rgb
-        night: lidar_thermal
       search_pattern: corridor_sweep
-      min_battery_abort_pct: 20.0
-      home_pose: home_ugv
-      encircle_radius_m: 18.0
-      encircle_standoff_m: 10.0
       exploration_status: searching
+      home_pose: home_ugv
+
+      encirclement:
+        radius_m: 18.0
+        standoff_m: 10.0
 
     limits:
       max_speed_mps: 3.0
+      cruise_speed_mps: 2.0
       min_safe_separation_m: 5.0
+      max_slope_deg: 20.0
+      min_turning_radius_m: 2.5
+      obstacle_clearance_m: 0.5
+      terrain_types: [road, grass, urban]
+
+    feasibility:
+      endurance_min: 240
+      reserve_pct: 20
+      transit_speed_mps: 2.0
+      nominal_coverage_rate_m2_per_min: 2500
+      max_partition_area_m2: 120000
+      preferred_partition_shape: corridor_or_bounded_zone
+
+    task_constraints:
+      exploration:
+        allowed_patterns: [corridor_sweep, perimeter, waypoint_patrol]
+        disallowed_patterns: [open_water_sector_scan, aerial_lawnmower]
+        requires_traversable_ground: true
+
+      tracking:
+        max_target_speed_mps: 4
+        preferred_target_domains: [land, shoreline]
+
+      encirclement:
+        supported: true
+        min_team_size: 3
+        allowed_domains: [land, air]
+        min_radius_m: 15
+        max_radius_m: 40
+
+      handoff:
+        supported: false
+
+    coordination:
+      handoff:
+        can_receive_from: [quadrotor, usv]
+        can_send_to: []
+      comms_range_m: 500
+
+    recovery:
+      abort_battery_pct: 20.0
+      must_land: false
+      preferred_abort_action: return_home
 
     bt_nodes:
       mission:
@@ -447,6 +626,5 @@ platforms:
         radius_m: 18.0
         standoff_m: 10.0
 
-
 policy:
-  if_priority_safety_root: ReactiveFallback
+  if_priority_safety_root: ReactiveFallback  # Use ReactiveFallback as root when safety/abort conditions must preempt mission execution
